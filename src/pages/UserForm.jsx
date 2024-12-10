@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate for navigation
 import "./UserForm.css";
+import proofImage from '../image/proof.jpg';
+import proofImage2 from '../image/proof2.jpg';
+
 
 const UserForm = () => {
   const [formData, setFormData] = useState({ username: "", mobile: "" });
@@ -51,8 +54,11 @@ const UserForm = () => {
     </div>
     <div className="hero">
       <div className="img-container">
-                <img src="./image/proof.jpg" alt="" />
-               <img src="./image/proof2.jpg" alt="" />       
+                {/* <img src="./image/proof.jpg" alt="" />.j
+               <img src="./image/proof2.jpg" alt="" />        */}
+               <img src={proofImage} alt="Proof" />
+               <img src={proofImage2} alt="Proof" />
+
                </div>     
                </div>
   </>

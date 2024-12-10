@@ -1,10 +1,7 @@
 import React from "react";
-// import { useLocation } from "react-router-dom"; // Import useLocation to get passed state
 import './PurchasePage.css'
+import payment from '../image/Payment.jpg'
 const PurchasePage = () => {
-  // const location = useLocation();
-  // const selectedOption = location.state || {};
-
   return (
     <div className="container">
     <h1>Complete Your Payment</h1>
@@ -14,7 +11,7 @@ const PurchasePage = () => {
     </div>
     <div className="qr-section">
       <img 
-        src="./image/payment.jpg" 
+        src={payment }
         alt="QR Code" 
         className="qr-code" 
       />
