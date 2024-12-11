@@ -17,6 +17,7 @@ body {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
   overflow: hidden;
+  margin-bottom: 80px;
 }
 
 /* Header Styles */

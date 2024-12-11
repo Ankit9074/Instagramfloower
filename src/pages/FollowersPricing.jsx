@@ -8,7 +8,7 @@ const FollowersPricing = () => {
   const pricingOptions = [
     {
       followers: "1k",
-      price: "₹149",
+      price: "₹250",
       oldPrice: "₹359",
       details: {
         age: "1-3 years old",
@@ -18,8 +18,8 @@ const FollowersPricing = () => {
     },
     {
       followers: "5k",
-      price: "₹350",
-      oldPrice: "₹859",
+      price: "₹759",
+      oldPrice: "₹1200",
       details: {
         age: "1-3 years old",
         time: "UltraFast",
@@ -28,8 +28,8 @@ const FollowersPricing = () => {
     },
     {
       followers: "10k",
-      price: "₹599",
-      oldPrice: "₹1499",
+      price: "₹1200",
+      oldPrice: "₹1999",
       details: {
         age: "1-3 years old",
         time: "UltraFast",

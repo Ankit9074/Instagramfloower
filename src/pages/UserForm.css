@@ -164,20 +164,16 @@
   flex-wrap: wrap;
   gap: 15px;
   justify-content: center;
+  margin-bottom: 60px;
 }
 
 .img-container img {
   width: 100%;
-  max-width: 500px; /* Increased max-width for larger images */
+  max-width: 400px; /* Increased max-width for larger images */
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-
-
-
-
 
 .user-details-container {
   text-align: center;

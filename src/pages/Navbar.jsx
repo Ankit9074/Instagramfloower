@@ -10,11 +10,11 @@ const Navbar = () => {
           <span>❤️</span>
           <span>👤</span>
         </div>
+       
       </nav>
-      <div className="form-container">
-    </div>
     </div>
     <UserForm/>
+   
   </>
   );
 };
