@@ -8,34 +8,14 @@ const FollowersPricing = () => {
   const pricingOptions = [
     {
       followers: "1k",
-      price: "₹250",
+      price: "₹120",
       oldPrice: "₹359",
       details: {
         age: "1-3 years old",
         time: "UltraFast",
         dropRate: "0% No Drop",
-      },
-    },
-    {
-      followers: "5k",
-      price: "₹759",
-      oldPrice: "₹1200",
-      details: {
-        age: "1-3 years old",
-        time: "UltraFast",
-        dropRate: "0% No Drop",
-      },
-    },
-    {
-      followers: "10k",
-      price: "₹1200",
-      oldPrice: "₹1999",
-      details: {
-        age: "1-3 years old",
-        time: "UltraFast",
-        dropRate: "0% No Drop",
-      },
-    },
+      }
+    }
   ];
 
   const handleBuyNow = (option) => {
